@@ -52,30 +52,22 @@ public class Pizzaria {
     }
 
 
-    private static void pedido() {
-       // System.out.println("Façer pedido");
-       
-        
-        
-        
-        
+    private static void pedido() {     
     }
 
     private static void listaPizza() {
-        System.out.println("Não fiz isso ainda. Cenas para os próximos capítulos...");
+       System.out.println("Portuguesa – (mussarela, ovos, palmito, pimentão, ervilha, presunto e cebola) R$45,00");
+        System.out.println("Calabresa – (mussarela, linguiça calabresa e cebola) - R$45,00");
+        System.out.println("Camarão – (camarão, molho de tomate, mussarela e catupiry)- R$55,00");
+        System.out.println("Mista – (mussarela, presunto e orégano)- R$35,00");
+        System.out.println("Espanhola – (presunto, mussarela, calabresa e cebola)- R$40,00");
+        System.out.println("Quatro queijos – (mussarela, provolone, parmesão e catupiry)- R$40,00");
     }
-
-
     private static void cadastrarPizza() {
-        System.out.println("Não fiz isso ainda. Cenas para os próximos capítulos...");
     }
-
     private static void alteracaoPreço() {
-        System.out.println("Não fiz isso ainda. Cenas para os próximos capítulos...");
     }
-
     private static void controlePedido() {
-        System.out.println("Não fiz isso ainda. Cenas para os próximos capítulos...");
     }
 
     private static void listarClientes() {
