@@ -1,0 +1,89 @@
+public class Pizzaria {
+
+    public static void main(String[] args) {
+        menuPrincipal();
+    }
+
+    private static void menuPrincipal() {
+        while (true) {
+             System.out.println();
+            System.out.println("Escolha uma opção:");
+            System.out.println("A - Fazer pedido");
+            System.out.println("B - Lista de pizza");
+            System.out.println("C - Cadastrar cliente");
+            System.out.println("D - Cadastrar pizza");
+            System.out.println("E - Alterar preço");
+            System.out.println("F - Controle de pedido");
+            System.out.println("X - Sair");
+            System.out.println();
+            System.out.print("Digite a sua escolha: ");
+            var escolha = LerDados.lerTexto().toUpperCase();
+            System.out.println();
+
+            if (escolha.equals("A")) {
+                Pedido();
+            } else if (escolha.equals("B")) {
+                listaPizza();
+            } else if (escolha.equals("C")) {
+                cadastrarCliente();
+            } else if (escolha.equals("D")) {
+                cadastrarPizza();
+            } else if (escolha.equals("E")) {
+                alteracaoPreço();
+            } else if (escolha.equals("F")) {
+                controlePedido();
+            } else if (escolha.equals("X")) {
+               return;
+            } else {
+                System.out.println("Esta não é uma opção válida. Vamos tentar novamente!");
+            }
+        }
+    }
+
+
+    private static void Pedido() {
+        System.out.println("Façer pedido");
+        
+        
+        
+        
+    }
+
+    private static void listaPizza() {
+        System.out.println("Não fiz isso ainda. Cenas para os próximos capítulos...");
+    }
+    
+    private static void cadastrarCliente() {
+        
+        System.out.print("Digite o nome: ");
+        var Nome = LerDados.lerTexto();
+
+        System.out.print("Digite o telefone: ");
+        var Telefone = LerDados.lerInt("Digita um número, por favor: ");
+
+        System.out.print("Digite o endereço: ");
+        var Endereco = LerDados.lerTexto();
+
+        System.out.print("Digite o cep: ");
+        var Cep = LerDados.lerInt("Digita um número, por favor: ");
+
+        salvarCliente(Nome, Telefone, Endereco, Cep);
+    }
+
+    private static void salvarCliente(String Nome, int Telefone, String Endereco, int Cep) {
+        System.out.println("Não fiz isso ainda. Cenas para os próximos capítulos...");
+    }
+
+
+    private static void cadastrarPizza() {
+        System.out.println("Não fiz isso ainda. Cenas para os próximos capítulos...");
+    }
+
+    private static void alteracaoPreço() {
+        System.out.println("Não fiz isso ainda. Cenas para os próximos capítulos...");
+    }
+
+    private static void controlePedido() {
+        System.out.println("Não fiz isso ainda. Cenas para os próximos capítulos...");
+    }
+}
